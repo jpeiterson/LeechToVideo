@@ -37,7 +37,7 @@ class Config(object):
     CUSTOM_FILE_NAME = os.environ.get("CUSTOM_FILE_NAME", "")
     LEECH_COMMAND = os.environ.get("LEECH_COMMAND", "leech")
     YTDL_COMMAND = os.environ.get("YTDL_COMMAND", "ytdl")
-    RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", "")
+    RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", "type = drive scope = drive token = {"access_token":"ya29.a0AfH6SMBEoggIKHr_xyK7Ajl0lN_Ace-KvN0Diz8WKnrKrNDVoqSjWmQ7rlwsSNfSOnSg3VwqxQWXAWwQalK4uY-0PnuyG5D8uj3s5_RptiZcVMQrUmIp4Eapbb0YzVo8e3igzUvSa2fZiMuVFkHhv0ctf_B20g0UNhKLAPGyznw","refresh_token":"1//0d9tA71eJFKHOCgYIARAAGA0SNwF-L9IrvfltdXLTORzTPOVe-jLvGLxAZH3aJr8VQ2pETDSOfO7M2S4FgpnvcwrOKFboWR7btZk","scope":"https://www.googleapis.com/auth/drive.metadata.readonly https://www.googleapis.com/auth/drive.file","token_type":"Bearer","expiry_date":1610300362955} root_folder_id = 0AP_PvQY1AtARUk9PVA")
     DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "TorrentLeech-Gdrive")
     GLEECH_COMMAND = os.environ.get("GLEECH_COMMAND", "gleech")
     INDEX_LINK = os.environ.get("INDEX_LINK", "https://index.flixmovieslk.workers.dev/")
